@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+html,body {
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+b {
+   color: white;
+}
+
+#canvas {
+   cursor: crosshair;
+}
+
+#rad {
+   width: 130px;
+   height: 14px;
+   background: grey;
+   border: none;
+   color: white;
+   margin: 3px;
+   cursor: pointer;
+}
+
+#menu {
+   padding: 10px;
+   height: auto;
+   width: 100%;
+   background: #323232;
+   position: fixed;
+   display: block;
+}
+
+#color {
+   margin: 0 3px 0;
+   width: 35px;
+   height: 35px;
+   background: none;
+   padding: 0;
+   border: 1px solid black;
+
+}
+
+#settings {
+   float: left;
+}
+
